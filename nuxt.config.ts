@@ -5,5 +5,6 @@ export default defineNuxtConfig({
     '/': { prerender: true }
   },
 
-  compatibilityDate: '2024-11-10'
+  compatibilityDate: '2024-11-10',
+  modules: ['@nuxthq/studio']
 })
