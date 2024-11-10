@@ -1,46 +1,14 @@
 {
-  "name": "kbrdn.dev",
-  "type": "module",
-  "version": "1.3.1",
+  "name": "content-wind-template",
+  "private": true,
   "scripts": {
-    "precommit": "lint-staged",
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "pnpm generate && astro build",
-    "build-local": "pnpm clean && pnpm generate && astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "lint": "prettier \"./**/*.{md,mdx,json,js,mjs,cjs,ts,astro,html}\" --write",
-    "generate": "astro-i18next generate && pnpm lint",
-    "clean": "rmdir /s /q src\\pages\\en && rmdir /s /q dist"
-  },
-  "dependencies": {
-    "@astrojs/image": "^0.16.1",
-    "@astrojs/mdx": "^0.18.1",
-    "@astrojs/react": "^2.1.0",
-    "@astrojs/sitemap": "^1.2.1",
-    "@astrojs/tailwind": "^3.1.1",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "astro": "^2.2.1",
-    "framer-motion": "^10.3.2",
-    "i18next": "^22.4.12",
-    "i18next-fs-backend": "^2.1.1",
-    "iconoir-react": "^6.4.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "sass": "^1.59.3",
-    "tailwindcss": "^3.0.24"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9",
-    "astro-i18next": "1.0.0-beta.21",
-    "astro-seo": "^0.7.1",
-    "lint-staged": "13.2.2",
-    "prettier": "2.8.8",
-    "prettier-plugin-astro": "0.8.0"
-  },
-  "lint-staged": {
-    "**/*.{md,mdx,json,js,mjs,cjs,ts,astro,html}": "prettier --write --config .prettierrc"
+    "content-wind": "latest",
+    "nuxt": "latest"
   }
 }
