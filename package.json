@@ -38,7 +38,7 @@
     "astro-seo": "^0.7.1",
     "lint-staged": "13.2.2",
     "prettier": "2.8.8",
-    "prettier-plugin-astro": "0.8.0"
+    "prettier-plugin-astro": "0.14.1"
   },
   "lint-staged": {
     "**/*.{md,mdx,json,js,mjs,cjs,ts,astro,html}": "prettier --write --config .prettierrc"
