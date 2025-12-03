@@ -15,8 +15,8 @@
     "clean": "rmdir /s /q src\\pages\\en && rmdir /s /q dist"
   },
   "dependencies": {
-    "@astrojs/image": "^0.16.1",
-    "@astrojs/mdx": "^0.18.1",
+    "@astrojs/image": "^0.18.0",
+    "@astrojs/mdx": "^0.19.0",
     "@astrojs/react": "^2.1.0",
     "@astrojs/sitemap": "^1.2.1",
     "@astrojs/tailwind": "^3.1.1",
